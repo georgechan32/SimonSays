@@ -1,0 +1,55 @@
+table, th, td {
+   border: 1px solid black;
+   height: 100%;
+   background-color : black;
+} 
+
+body, html 
+{ height: 100%; }
+
+
+
+.bf_button {  
+  display:block; 
+  background: #white; 
+  outline: none; 
+  padding-right: 13px; 
+  text-decoration: none; 
+  color: white;
+  text-align: center;
+  -moz-border-radius: 50%;
+  border-radius: 40%;
+  -webkit-border-radius: 50%;
+  white-space: normal;
+  font-size: 30px;
+  
+ } 
+
+.bf_button:hover 
+{  
+	position:relative;
+	top:1px;
+	opacity: 0.6;
+} 
+
+.bf_button span{  
+  display:block; 
+  color: white;
+  background: white;  
+  white-space: nowrap; 
+  line-height: 22px; 
+  padding: 0 0 0 13px; 
+  font-family: Arial, Verdana; 
+  font-size: 30px; 
+  text-align: center;
+  font-weight: bold;  
+  color: rgb(255,255,255);  
+  text-transform: uppercase;  
+  text-align: center;
+  outline: #00FF00 dotted thick;
+ }
+ .bf_button:active 
+{  
+	position:relative;
+	opacity: 0.6;
+} 
